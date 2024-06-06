@@ -33,7 +33,7 @@ thead {
 }
 
 
-.card-body > .list-group > .list-group-item {
+.card-body > .list-group > .row > .col-6 > .list-group-item {
     border: none !important; /* Remove borders */
 }
 
