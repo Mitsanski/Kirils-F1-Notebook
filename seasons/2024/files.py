@@ -1,22 +1,17 @@
 import os
 
-# Define the number of files and template name
-num_files = 24
-template = "round*.html"
+# Define the range of file numbers
+start = 10
+end = 24
 
-# Get the current working directory
-cwd = os.getcwd()
+# Read the content of the template file
+with open('template.html', 'r') as template_file:
+    template_content = template_file.read()
 
-# Loop through the number of files
-for i in range(1, num_files + 1):
-    # Create the filename with zero-padding for numbering
-    filename = f"round{i:02d}.html"
-    # Create the full path
-    filepath = os.path.join(cwd, filename)
+# Create new files based on the template
+for i in range(start, end + 1):
+    new_file_name = f'round{i}.html'
+    with open(new_file_name, 'w') as new_file:
+        new_file.write(template_content)
 
-    # Open the file in write mode (will create if non-existent)
-    with open(filepath, "w") as f:
-        # Write an empty template content (you can add content here)
-        f.write("")
-
-print(f"Created {num_files} files with template '{template}' in {cwd}")
+print(f"Files round{start}.html to round{end}.html have been created based on template.html.")
