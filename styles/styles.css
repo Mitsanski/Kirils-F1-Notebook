@@ -6,7 +6,7 @@ h1 {
     padding: 20px 0;
 }
 
-.list-group .list-group-item:hover {
+.list-group .list-item-hover:hover {
     background-color: #e10600 !important;
     color: white !important;
 }
