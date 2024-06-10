@@ -37,3 +37,18 @@ thead {
 th {
     width: auto;
 }
+
+.bg-image {
+    background-image: url(../images/max.png); /* Placeholder image URL */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Full height */
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
