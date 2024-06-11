@@ -52,3 +52,12 @@ th {
     text-align: center;
     padding: 20px;
 }
+
+.list-group-nested .list-group-item {
+    list-style: none !important;
+    border: none;
+}
+
+.team-name {
+    text-decoration: und;
+}
