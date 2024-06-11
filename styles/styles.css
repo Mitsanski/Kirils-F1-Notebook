@@ -61,3 +61,15 @@ th {
 .team-name {
     text-decoration: und;
 }
+
+.accordion-header {
+    --bs-accordion-btn-bg: #f35754;
+    --bs-accordion-active-bg: #d9312e;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-color: white;
+}
+
+p {
+    margin: 0;
+}

@@ -1,15 +1,1156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/F1.svg">
+    <title>Kiril's Notebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="../../images/F1.svg" width="60" height="50" alt="Logo">
+                Kiril's Notebook
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Seasons</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../seasons/2024-season.html" class="dropdown-item">2024</a></li>
+                            <li><a href="../seasons/2025-season.html" class="dropdown-item disabled">2025</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Teammate
+                            Battles</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="2024-battles-season.html" class="dropdown-item">2024</a></li>
+                            <li><a href="2025-battles-season.html" class="dropdown-item disabled">2025</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            href="#">Predictions</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../../predictions/2024-predictions.html" class="dropdown-item">2024</a></li>
+                            <li><a href="../../predictions/2025-predictions.html"
+                                    class="dropdown-item disabled">2025</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <nav aria-label="breadcrumb" class="p-3 pb-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">2024 Season Teammate Battles</li>
+        </ol>
+    </nav>
+
+    <div class="containter">
+        <div class="row">
+            <div class="d-flex flex-wrap justify-content-around">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+                    <h2 class="display-4 text-center mb-4">Qualifying</h2>
+                    <div class="accordion mx-4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#bahrainOne" aria-controls="bahrainOne">
+                                    Bahrain Grand Prix&nbsp;<img src="https://flagsapi.com/BH/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="bahrainOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="redbull">Verstappen beats Perez</p>
+                                    <p class="ferrari"></p>
+                                    <p class="mclaren"></p>
+                                    <p class="mercedes"></p>
+                                    <p class="aston-martin"></p>
+                                    <p class="rb"></p>
+                                    <p class="haas"></p>
+                                    <p class="alpine"></p>
+                                    <p class="williams"></p>
+                                    <p class="kick"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#saudiOne" aria-controls="saudiOne">
+                                    Saudi Arabian Grand Prix&nbsp;<img src="https://flagsapi.com/SA/shiny/64.png"
+                                        width="16" class="align-self-center" alt="Saudi">
+                                </button>
+                            </h2>
+                            <div id="saudiOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#australiaOne" aria-controls="australiaOne">
+                                    Australian Grand Prix&nbsp;<img src="https://flagsapi.com/AU/shiny/64.png"
+                                        width="16" class="align-self-center" alt="Australia">
+                                </button>
+                            </h2>
+                            <div id="australiaOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#japanOne" aria-controls="japanOne">
+                                    Japanese Grand Prix&nbsp;<img src="https://flagsapi.com/JP/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Japan">
+                                </button>
+                            </h2>
+                            <div id="japanOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chinaOne" aria-controls="chinaOne">
+                                    Chinese Grand Prix&nbsp;<img src="https://flagsapi.com/CN/shiny/64.png" width="16"
+                                        class="align-self-center" alt="China">
+                                </button>
+                            </h2>
+                            <div id="chinaOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#miamiOne" aria-controls="miamiOne">
+                                    Miami Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Miami">
+                                </button>
+                            </h2>
+                            <div id="miamiOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#emiliaRomagnaOne" aria-controls="emiliaRomagnaOne">
+                                    Emilia Romagna Grand Prix&nbsp;<img src="https://flagsapi.com/IT/shiny/64.png"
+                                        width="16" class="align-self-center" alt="imola">
+                                </button>
+                            </h2>
+                            <div id="emiliaRomagnaOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#monacoOne" aria-controls="monacoOne">
+                                    Monaco Grand Prix&nbsp;<img src="https://flagsapi.com/MC/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="monacoOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#canadaOne" aria-controls="canadaOne">
+                                    Canadian Grand Prix&nbsp;<img src="https://flagsapi.com/CA/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="canadaOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#spainOne" aria-controls="spainOne" disabled>
+                                    Spanish Grand Prix&nbsp;<img src="https://flagsapi.com/ES/shiny/64.png" width="16"
+                                        class="align-self-center" alt="spain">
+                                </button>
+                            </h2>
+                            <div id="spainOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#austriaOne" aria-controls="austriaOne" disabled>
+                                    Austrian Grand Prix&nbsp;<img src="https://flagsapi.com/AT/shiny/64.png" width="16"
+                                        class="align-self-center" alt="austria">
+                                </button>
+                            </h2>
+                            <div id="austriaOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#britainOne" aria-controls="britainOne" disabled>
+                                    British Grand Prix&nbsp;<img src="https://flagsapi.com/GB/shiny/64.png" width="16"
+                                        class="align-self-center" alt="britain">
+                                </button>
+                            </h2>
+                            <div id="britainOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#hungaryOne" aria-controls="hungaryOne" disabled>
+                                    Hungarian Grand Prix&nbsp;<img src="https://flagsapi.com/HU/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="hungaryOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#belgiumOne" aria-controls="belgiumOne" disabled>
+                                    Belgian Grand Prix&nbsp;<img src="https://flagsapi.com/BE/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Belgian">
+                                </button>
+                            </h2>
+                            <div id="belgiumOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#netherlandsOne" aria-controls="netherlandsOne" disabled>
+                                    Dutch Grand Prix&nbsp;<img src="https://flagsapi.com/NL/shiny/64.png" width="16"
+                                        class="align-self-center" alt="netherlands">
+                                </button>
+                            </h2>
+                            <div id="netherlandsOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#italyOne" aria-controls="italyOne" disabled>
+                                    Italian Grand Prix&nbsp;<img src="https://flagsapi.com/IT/shiny/64.png" width="16"
+                                        class="align-self-center" alt="italy">
+                                </button>
+                            </h2>
+                            <div id="italyOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#azerbaijanOne" aria-controls="azerbaijanOne" disabled>
+                                    Azerbaijan Grand Prix&nbsp;<img src="https://flagsapi.com/AZ/shiny/64.png"
+                                        width="16" class="align-self-center" alt="azerbaijan">
+                                </button>
+                            </h2>
+                            <div id="azerbaijanOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#singaporeOne" aria-controls="singaporeOne" disabled>
+                                    Singapore Grand Prix&nbsp;<img src="https://flagsapi.com/SG/shiny/64.png" width="16"
+                                        class="align-self-center" alt="singapore">
+                                </button>
+                            </h2>
+                            <div id="singaporeOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#usaOne" aria-controls="usaOne" disabled>
+                                    United States Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png"
+                                        width="16" class="align-self-center" alt="usa">
+                                </button>
+                            </h2>
+                            <div id="usaOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#   xicoOne" aria-controls="mexicoOne" disabled>
+                                    Mexico City Grand Prix&nbsp;<img src="https://flagsapi.com/MX/shiny/64.png"
+                                        width="16" class="align-self-center" alt="mexico">
+                                </button>
+                            </h2>
+                            <div id="mexicoOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#brazilOne" aria-controls="brazilOne" disabled>
+                                    Sao Paulo Grand Prix&nbsp;<img src="https://flagsapi.com/BR/shiny/64.png" width="16"
+                                        class="align-self-center" alt="brazil">
+                                </button>
+                            </h2>
+                            <div id="brazilOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#vegasOne" aria-controls="vegasOne" disabled>
+                                    Las Vegas Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png" width="16"
+                                        class="align-self-center" alt="vegas">
+                                </button>
+                            </h2>
+                            <div id="vegasOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#qatarOne" aria-controls="qatarOne" disabled>
+                                    Qatar Grand Prix&nbsp;<img src="https://flagsapi.com/QA/shiny/64.png" width="16"
+                                        class="align-self-center" alt="qatar">
+                                </button>
+                            </h2>
+                            <div id="qatarOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#abu-dhabiOne" aria-controls="abu-dhabiOne" disabled>
+                                    Abu Dhabi Grand Prix&nbsp;<img src="https://flagsapi.com/AE/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="abu-dhabiOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-3 ">
+                    <h2 class="display-4 text-center mb-4">Grand Prix</h2>
+                    <div class="accordion mx-4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#bahrainTwo" aria-controls="bahrainTwo">
+                                    Bahrain Grand Prix&nbsp;<img src="https://flagsapi.com/BH/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="bahrainTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="redbull">Verstappen beats Perez</p>
+                                    <p class="ferrari"></p>
+                                    <p class="mclaren"></p>
+                                    <p class="mercedes"></p>
+                                    <p class="aston-martin"></p>
+                                    <p class="rb"></p>
+                                    <p class="haas"></p>
+                                    <p class="alpine"></p>
+                                    <p class="williams"></p>
+                                    <p class="kick"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#saudiTwo" aria-controls="saudiTwo">
+                                    Saudi Arabian Grand Prix&nbsp;<img src="https://flagsapi.com/SA/shiny/64.png"
+                                        width="16" class="align-self-center" alt="Saudi">
+                                </button>
+                            </h2>
+                            <div id="saudiTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#australiaTwo" aria-controls="australiaTwo">
+                                    Australian Grand Prix&nbsp;<img src="https://flagsapi.com/AU/shiny/64.png"
+                                        width="16" class="align-self-center" alt="Australia">
+                                </button>
+                            </h2>
+                            <div id="australiaTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull">Perez beats Verstappen</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#japanTwo" aria-controls="japanTwo">
+                                    Japanese Grand Prix&nbsp;<img src="https://flagsapi.com/JP/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Japan">
+                                </button>
+                            </h2>
+                            <div id="japanTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chinaTwo" aria-controls="chinaTwo">
+                                    Chinese Grand Prix&nbsp;<img src="https://flagsapi.com/CN/shiny/64.png" width="16"
+                                        class="align-self-center" alt="China">
+                                </button>
+                            </h2>
+                            <div id="chinaTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#miamiTwo" aria-controls="miamiTwo">
+                                    Miami Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Miami">
+                                </button>
+                            </h2>
+                            <div id="miamiTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#emiliaRomagnaTwo" aria-controls="emiliaRomagnaTwo">
+                                    Emilia Romagna Grand Prix&nbsp;<img src="https://flagsapi.com/IT/shiny/64.png"
+                                        width="16" class="align-self-center" alt="imola">
+                                </button>
+                            </h2>
+                            <div id="emiliaRomagnaTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#monacoTwo" aria-controls="monacoTwo">
+                                    Monaco Grand Prix&nbsp;<img src="https://flagsapi.com/MC/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="monacoTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#canadaTwo" aria-controls="canadaTwo">
+                                    Canadian Grand Prix&nbsp;<img src="https://flagsapi.com/CA/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="canadaTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull">Verstappen beats Perez</p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#spainTwo" aria-controls="spainTwo" disabled>
+                                    Spanish Grand Prix&nbsp;<img src="https://flagsapi.com/ES/shiny/64.png" width="16"
+                                        class="align-self-center" alt="spain">
+                                </button>
+                            </h2>
+                            <div id="spainTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#austriaTwo" aria-controls="austriaTwo" disabled>
+                                    Austrian Grand Prix&nbsp;<img src="https://flagsapi.com/AT/shiny/64.png" width="16"
+                                        class="align-self-center" alt="austria">
+                                </button>
+                            </h2>
+                            <div id="austriaTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#britainTwo" aria-controls="britainTwo" disabled>
+                                    British Grand Prix&nbsp;<img src="https://flagsapi.com/GB/shiny/64.png" width="16"
+                                        class="align-self-center" alt="britain">
+                                </button>
+                            </h2>
+                            <div id="britainTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#hungaryTwo" aria-controls="hungaryTwo" disabled>
+                                    Hungarian Grand Prix&nbsp;<img src="https://flagsapi.com/HU/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="hungaryTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#belgiumTwo" aria-controls="belgiumTwo" disabled>
+                                    Belgian Grand Prix&nbsp;<img src="https://flagsapi.com/BE/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Belgian">
+                                </button>
+                            </h2>
+                            <div id="belgiumTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#netherlandsTwo" aria-controls="netherlandsTwo" disabled>
+                                    Dutch Grand Prix&nbsp;<img src="https://flagsapi.com/NL/shiny/64.png" width="16"
+                                        class="align-self-center" alt="netherlands">
+                                </button>
+                            </h2>
+                            <div id="netherlandsTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#italyTwo" aria-controls="italyTwo" disabled>
+                                    Italian Grand Prix&nbsp;<img src="https://flagsapi.com/IT/shiny/64.png" width="16"
+                                        class="align-self-center" alt="italy">
+                                </button>
+                            </h2>
+                            <div id="italyTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#azerbaijanTwo" aria-controls="azerbaijanTwo" disabled>
+                                    Azerbaijan Grand Prix&nbsp;<img src="https://flagsapi.com/AZ/shiny/64.png"
+                                        width="16" class="align-self-center" alt="azerbaijan">
+                                </button>
+                            </h2>
+                            <div id="azerbaijanTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#singaporeTwo" aria-controls="singaporeTwo" disabled>
+                                    Singapore Grand Prix&nbsp;<img src="https://flagsapi.com/SG/shiny/64.png" width="16"
+                                        class="align-self-center" alt="singapore">
+                                </button>
+                            </h2>
+                            <div id="singaporeTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#usaTwo" aria-controls="usaTwo" disabled>
+                                    United States Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png"
+                                        width="16" class="align-self-center" alt="usa">
+                                </button>
+                            </h2>
+                            <div id="usaTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#mexicoTwo" aria-controls="mexicoTwo" disabled>
+                                    Mexico City Grand Prix&nbsp;<img src="https://flagsapi.com/MX/shiny/64.png"
+                                        width="16" class="align-self-center" alt="mexico">
+                                </button>
+                            </h2>
+                            <div id="mexicoTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#brazilTwo" aria-controls="brazilTwo" disabled>
+                                    Sao Paulo Grand Prix&nbsp;<img src="https://flagsapi.com/BR/shiny/64.png" width="16"
+                                        class="align-self-center" alt="brazil">
+                                </button>
+                            </h2>
+                            <div id="brazilTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#vegasTwo" aria-controls="vegasTwo" disabled>
+                                    Las Vegas Grand Prix&nbsp;<img src="https://flagsapi.com/US/shiny/64.png" width="16"
+                                        class="align-self-center" alt="vegas">
+                                </button>
+                            </h2>
+                            <div id="vegasTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#qatarTwo" aria-controls="qatarTwo" disabled>
+                                    Qatar Grand Prix&nbsp;<img src="https://flagsapi.com/QA/shiny/64.png" width="16"
+                                        class="align-self-center" alt="qatar">
+                                </button>
+                            </h2>
+                            <div id="qatarTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#abu-dhabiTwo" aria-controls="abu-dhabiTwo" disabled>
+                                    Abu Dhabi Grand Prix&nbsp;<img src="https://flagsapi.com/AE/shiny/64.png" width="16"
+                                        class="align-self-center" alt="Bahrain">
+                                </button>
+                            </h2>
+                            <div id="abu-dhabiTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <p class="redbull"></p>
+                                <p class="ferrari"></p>
+                                <p class="mclaren"></p>
+                                <p class="mercedes"></p>
+                                <p class="aston-martin"></p>
+                                <p class="rb"></p>
+                                <p class="haas"></p>
+                                <p class="alpine"></p>
+                                <p class="williams"></p>
+                                <p class="kick"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
