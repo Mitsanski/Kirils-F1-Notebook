@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: "Formula1 Display-Regular" !important;
+}
+
 h1 {
     padding: 20px 0;
 }
