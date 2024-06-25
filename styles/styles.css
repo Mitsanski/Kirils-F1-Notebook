@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "formula1-regular";
+    src: url("fonts/formula1-regular-webfont.woff2") format("woff2"),
+        url("fonts/formula1-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Formula1 Display-Regular" !important;
+    font-family: "formula1-regular" !important;
 }
 
 h1 {
