@@ -1,0 +1,35 @@
+{
+    "name": "kirils-notebook",
+    "version": "1.0.0",
+    "description": "Welcome to Kiril's F1 Notebook, a personal project where I jot down anything interesting from each Grand Prix weekend. This is all about improving my web development skills while sharing my passion for Formula 1. Enjoy my collection of F1 observations!",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:css": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --minify",
+        "watch:css": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
+        "serve": "lite-server",
+        "start": "concurrently \"npm run watch:css\" \"npm run serve\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mitsanski/Kirils-F1-Notebook.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mitsanski/Kirils-F1-Notebook/issues"
+    },
+    "homepage": "https://github.com/Mitsanski/Kirils-F1-Notebook#readme",
+    "dependencies": {
+        "lit-html": "^3.2.1",
+        "prettier-plugin-tailwindcss": "^0.6.8"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "concurrently": "^9.0.1",
+        "lite-server": "^2.6.1",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.14"
+    }
+}

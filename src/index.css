@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "formula1-regular";
+    src:
+        url("../fonts/formula1-regular-webfont.woff2") format("woff2"),
+        url("../fonts/formula1-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "formula1-regular" !important;
+}
+
+.view {
+    display: none;
+}
+.active {
+    display: block;
+}
