@@ -1,241 +1,361 @@
 <!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="../../images/F1.svg" />
+		<title>Mexico City GP - 2024</title>
+		<link rel="stylesheet" href="../../styles/styles.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous" />
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="../../images/F1.svg">
-    <title>Mexico City GP - 2024</title>
-    <link rel="stylesheet" href="../../styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<body class="bg-body-secondary">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a href="../../index.html" class="navbar-brand">
+					<img src="../../images/F1.svg" width="60" height="50" alt="Logo" />
+					Kiril's Notebook
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="../../index.html">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								role="button"
+								data-bs-toggle="dropdown"
+								href="#"
+								>Seasons</a
+							>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="../2024-season.html" class="dropdown-item">2024</a>
+								</li>
+								<li>
+									<a href="../2025-season.html" class="dropdown-item disabled"
+										>2025</a
+									>
+								</li>
+							</ul>
+						</li>
 
-</head>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								role="button"
+								data-bs-toggle="dropdown"
+								href="#"
+								>Predictions</a
+							>
+							<ul class="dropdown-menu">
+								<li>
+									<a
+										href="../../predictions/2024-predictions.html"
+										class="dropdown-item"
+										>2024</a
+									>
+								</li>
+								<li>
+									<a
+										href="../../predictions/2025-predictions.html"
+										class="dropdown-item disabled"
+										>2025</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../../about.html">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-<body class="bg-body-secondary">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a href="../../index.html" class="navbar-brand">
-                <img src="../../images/F1.svg" width="60" height="50" alt="Logo">
-                Kiril's Notebook
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Seasons</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../2024-season.html" class="dropdown-item">2024</a></li>
-                            <li><a href="../2025-season.html" class="dropdown-item disabled">2025</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            href="#">Predictions</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../../predictions/2024-predictions.html" class="dropdown-item">2024</a></li>
-                            <li><a href="../../predictions/2025-predictions.html"
-                                    class="dropdown-item disabled">2025</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../about.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+		<nav aria-label="breadcrumb" class="p-3 pb-0">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="../../index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item">
+					<a href="../2024-season.html">2024</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">
+					Mexico City GP
+				</li>
+			</ol>
+		</nav>
 
+		<h3 class="text-center fw-bold pb-4">
+			FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2024
+		</h3>
 
-    <nav aria-label="breadcrumb" class="p-3 pb-0">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="../2024-season.html">2024</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Mexico City GP</li>
-        </ol>
-    </nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+					<div class="card card-custom">
+						<img
+							src="../../images/tracks/Mexico_Circuit.avif"
+							alt="mexico-track-map"
+							class="p-2 mb-3 mt-3" />
+						<div class="card-body bg-danger-subtle">
+							<h6 class="card-title ps-1 m-0">2024 Mexico City Grand Prix</h6>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li
+								class="list-group-item border-0 lh-2 list-items-font-size ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end fs-7">Organizer</div>
+										<div class="col-7 text-start">
+											<a href="https://www.fia.com">FIA</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Location</div>
+										<div class="col-7 text-start">
+											<img
+												src="https://flagsapi.com/MX/shiny/64.png"
+												width="16"
+												class="align-self-center" />&nbsp;Mexico City
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Venue</div>
+										<div class="col-7 text-start">
+											Autodromo Hermanos Rodriguez
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Start Date</div>
+										<div class="col-7 text-start">2024-10-25</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">End Date</div>
+										<div class="col-7 text-start">2024-10-27</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Race Number:</div>
+										<div class="col-7 text-start">20</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Total Laps</div>
+										<div class="col-7 text-start">71</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">2023 Winner</div>
+										<div class="col-7 text-start d-flex align-items-center">
+											<img
+												src="https://flagsapi.com/NL/shiny/64.png"
+												width="16" />&nbsp;Verstappen
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">2023 Pole</div>
+										<div class="col-7 text-start d-flex align-items-center">
+											<img
+												src="https://flagsapi.com/MC/shiny/64.png"
+												width="16" />&nbsp;Leclerc
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">2024 Pole</div>
+										<div class="col-7 text-start d-flex align-items-center">
+											1:15.946&nbsp;
+											<img
+												src="https://flagsapi.com/ES/shiny/64.png"
+												width="16" />&nbsp;SAI
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item border-0 lh-2 ps-0">
+								<div class="container">
+									<div class="row">
+										<div class="col-5 text-end">Fastest Lap</div>
+										<div class="col-7 text-start d-flex align-items-center">
+											1:18.336&nbsp;
+											<img
+												src="https://flagsapi.com/MC/shiny/64.png"
+												width="16" />&nbsp;LEC
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
 
-    <h3 class="text-center fw-bold pb-4">FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2024</h3>
+						<div class="card-body">
+							<div class="container">
+								<div class="row">
+									<div class="col-6 text-start">
+										<a
+											href="round19.html"
+											class="card-link text-decoration-none btn btn-outline-danger"
+											>&larr;USA</a
+										>
+									</div>
+									<div class="col-6 text-end">
+										<a
+											href="round21.html"
+											class="card-link text-decoration-none btn btn-outline-danger"
+											>Brazil&rarr;</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-                <div class="card card-custom">
-                    <img src="../../images/tracks/Mexico_Circuit.avif" alt="mexico-track-map" class="p-2 mb-3 mt-3">
-                    <div class="card-body bg-danger-subtle">
-                        <h6 class="card-title ps-1 m-0">2024 Mexico City Grand Prix</h6>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item border-0 lh-2 list-items-font-size ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end fs-7">Organizer</div>
-                                    <div class="col-7 text-start"><a href="https://www.fia.com">FIA</a></div>
+				<div class="col-lg-9 mb-3">
+					<div class="card card-custom px-4">
+						<div class="card-body">
+							<div class="container mb-4">
+								<h5 class="card-title fs-3 fw-bold d-inline">Practice</h5>
+								<span class="ps-2 fw-semibold text-secondary"
+									>25/10/2024 - 25/10/2024</span
+								>
+								<ul class="list-group fs-6 mt-2">
+									<li class="list-group-item">5 Friday Drivers</li>
+									<li class="list-group-item">
+										Albon shags it into the side of Bearman
+									</li>
+									<li class="list-group-item">
+										Osama Bin Russell shags it into the barrier again
+									</li>
+								</ul>
+							</div>
+							<div class="container mb-4">
+								<h5 class="card-title fs-3 fw-bold d-inline">Qualifying</h5>
+								<span class="ps-2 fw-semibold text-secondary">26/10/2024</span>
+								<ul class="list-group fs-6 mt-2">
+									<li class="list-group-item">
+										Piastri out in Q1. First time this year not in Q3
+									</li>
+									<li class="list-group-item">
+										Perez out in Q1 in MEXICO. diabolical
+									</li>
+									<li class="list-group-item">
+										Bottas into Q2. goat behaviour
+									</li>
+									<li class="list-group-item">
+										Sushi Tunoda shagged into the barrier. Red Flag
+									</li>
+									<li class="list-group-item">Haas into Q3</li>
+									<li class="list-group-item">Albon and Gasly into Q3</li>
+									<li class="list-group-item">Sainz takes pole position</li>
+									<li class="list-group-item">
+										Verstappen comes second and Norris third
+									</li>
+									<li class="list-group-item">
+										Magnussen best of the rest at P7
+									</li>
+								</ul>
+							</div>
+							<div class="container mb-4">
+								<h5 class="card-title fs-3 fw-bold d-inline">Race</h5>
+								<span class="ps-2 fw-semibold text-secondary">27/10/2024</span>
+								<ul class="list-group fs-6 mt-2">
+									<li class="list-group-item">
+										Sushi Tunoda in the barrier after Lap 1 clash with Albon
+									</li>
+									<li class="list-group-item">
+										Perez 5 second penalty for false start
+									</li>
+									<li class="list-group-item">
+										Verstappen trying to kill Norris
+									</li>
+									<li class="list-group-item">
+										10 second penalty for Verstappen for forcing Norris off
+										track
+									</li>
+									<li class="list-group-item">
+										Another 10 second penalty for Verstappen for leaving the
+										track an gaining an advantage
+									</li>
+									<li class="list-group-item">
+										Alonso retiers at his 400th GP
+									</li>
+									<li class="list-group-item">
+										Mercedes battling each other for P4
+									</li>
+									<li class="list-group-item">Nothing Really happening</li>
+									<li class="list-group-item">Both Haas cars in the points</li>
+									<li class="list-group-item">
+										Bros really battling for FL on last lap
+									</li>
+									<li class="list-group-item">
+										Norris finishes P2 and takes 10 points of Verstappens P6
+										lead
+									</li>
+									<li class="list-group-item">Gasly in P10</li>
+									<li class="list-group-item">
+										Sainz wins after chill race in the front
+									</li>
+									<li class="list-group-item">
+										Ferrari overtake Redbull in the constructors and are a bit
+										closer to McLaren
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Location</div>
-                                    <div class="col-7 text-start"><img src="https://flagsapi.com/MX/shiny/64.png"
-                                            width="16" class="align-self-center">&nbsp;Mexico City</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Venue</div>
-                                    <div class="col-7 text-start">Autodromo Hermanos Rodriguez</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Start Date</div>
-                                    <div class="col-7 text-start">2024-10-25</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">End Date</div>
-                                    <div class="col-7 text-start">2024-10-27</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Race Number:</div>
-                                    <div class="col-7 text-start">20</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Total Laps</div>
-                                    <div class="col-7 text-start">71</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">2023 Winner</div>
-                                    <div class="col-7 text-start d-flex align-items-center">
-                                        <img src="https://flagsapi.com/NL/shiny/64.png" width="16">&nbsp;Verstappen
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">2023 Pole</div>
-                                    <div class="col-7 text-start d-flex align-items-center">
-                                        <img src="https://flagsapi.com/MC/shiny/64.png" width="16">&nbsp;Leclerc
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 bg-body-tertiary ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">2024 Pole</div>
-                                    <div
-                                            class="col-7 text-start d-flex align-items-center">
-                                            1:15.946&nbsp;
-                                            <img
-                                                src="https://flagsapi.com/ES/shiny/64.png"
-                                                width="16" />&nbsp;SAI
-                                        </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border-0 lh-2 ps-0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-5 text-end">Fastest Lap</div>
-                                    <div class="col-7 text-start d-flex align-items-center">TBD</div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <div class="card-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-6 text-start">
-                                    <a href="round19.html"
-                                        class="card-link text-decoration-none btn btn-outline-danger">&larr;USA</a>
-                                </div>
-                                <div class="col-6 text-end">
-                                    <a href="round21.html"
-                                        class="card-link text-decoration-none btn btn-outline-danger">Brazil&rarr;</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-lg-9 mb-3">
-                <div class="card card-custom px-4">
-                    <div class="card-body">
-                        <div class="container mb-4">
-                            <h5 class="card-title fs-3 fw-bold d-inline">Practice</h5><span
-                                class="ps-2 fw-semibold text-secondary">25/10/2024 - 25/10/2024</span>
-                            <ul class="list-group fs-6 mt-2">
-                                <li class="list-group-item">5 Friday Drivers</li>
-                                <li class="list-group-item">Albon shags it into the side of Bearman</li>
-                                <li class="list-group-item">Osama Bin Russell shags it into the barrier again</li>
-                            </ul>
-                        </div>
-                        <div class="container mb-4">
-                            <h5 class="card-title fs-3 fw-bold d-inline">Qualifying</h5><span
-                                class="ps-2 fw-semibold text-secondary">26/10/2024</span>
-                            <ul class="list-group fs-6 mt-2">
-                                <li class="list-group-item">Piastri out in Q1. First time this year not in Q3</li>
-                                <li class="list-group-item">Perez out in Q1 in MEXICO. diabolical</li>
-                                <li class="list-group-item">Bottas into Q2. goat behaviour</li>
-                                <li class="list-group-item">Sushi Tunoda shagged into the barrier. Red Flag</li>
-                                <li class="list-group-item">Haas into Q3</li>
-                                <li class="list-group-item">Albon and Gasly into Q3</li>
-                                <li class="list-group-item">Sainz takes pole position</li>
-                                <li class="list-group-item">Verstappen comes second and Norris third</li>
-                                <li class="list-group-item">Magnussen best of the rest at P7</li>
-                            </ul>
-                        </div>
-                        <div class="container mb-4">
-                            <h5 class="card-title fs-3 fw-bold d-inline">Race</h5><span
-                                class="ps-2 fw-semibold text-secondary">27/10/2024</span>
-                            <ul class="list-group fs-6 mt-2">
-                                <li class="list-group-item">TBA</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-
-        <!-- <div class="card">
+			<!-- <div class="card">
 
             <h2 class="text-center fw-bold p-3">RESULT</h2>
 
@@ -440,11 +560,11 @@
                 </div>
             </div>
         </div> -->
-    </div>
+		</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"></script>
+	</body>
 </html>
