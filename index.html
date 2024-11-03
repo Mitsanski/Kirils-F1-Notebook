@@ -1,23 +1,35 @@
 <!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="/images/F1.svg" />
+		<title>Kiril's Notebook</title>
+		<link rel="stylesheet" href="dist/output.css" />
+		<script type="module" src="src/app.js"></script>
+	</head>
+	<body>
+		<nav class="bg-gray-800 p-4">
+			<div class="container mx-auto flex justify-between items-center">
+				<div class="text-white text-lg font-bold">Brand</div>
+				<ul class="flex space-x-4">
+					<li class="text-white hover:text-gray-300"><a href="#">Home</a></li>
+					<li class="relative">
+						<button class="text-white hover:text-gray-300">Dropdown</button>
+						<div
+							class="absolute hidden bg-white text-gray-800 mt-2 w-32 shadow-lg rounded-md">
+							<ul class="py-2">
+								<li class="px-4 py-2 hover:bg-gray-100"><a href="#">Item 1</a></li>
+								<li class="px-4 py-2 hover:bg-gray-100"><a href="#">Item 2</a></li>
+								<li class="px-4 py-2 hover:bg-gray-100"><a href="#">Item 3</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="text-white hover:text-gray-300"><a href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/images/F1.svg">
-    <title>Kiril's Notebook</title>
-    <link rel="stylesheet" href="dist/output.css">
-    <script type="module" src="src/app.js"></script>
-</head>
-<body>
-    <nav>
-        <a href="#home" class="text-xl px-3">Home</a> |
-        <a href="#seasons" class="text-xl px-3">Seasons</a> |
-        <a href="#predictions" class="text-xl px-3">Predictions</a> | 
-        <a href="#about" class="text-xl px-3">About</a>
-    </nav>
-
-    <main></main>
-</body>
-
+		<main></main>
+	</body>
 </html>

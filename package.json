@@ -8,7 +8,8 @@
         "build:css": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --minify",
         "watch:css": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
         "serve": "lite-server",
-        "start": "concurrently \"npm run watch:css\" \"npm run serve\""
+        "start": "concurrently 'npm run watch:css' 'npm run serve'"
+
     },
     "repository": {
         "type": "git",
@@ -23,6 +24,7 @@
     "homepage": "https://github.com/Mitsanski/Kirils-F1-Notebook#readme",
     "dependencies": {
         "lit-html": "^3.2.1",
+        "page": "^1.11.6",
         "prettier-plugin-tailwindcss": "^0.6.8"
     },
     "devDependencies": {
